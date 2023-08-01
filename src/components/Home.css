@@ -1,0 +1,22 @@
+.home-image-section {
+    height: 500px; /* Set the desired height of the container */
+    overflow: hidden; /* Crop the image that exceeds the container's height */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-image-section img {
+    width: 100%;
+    height: 600px; /* Adjust this value to enlarge the image */
+    object-fit: cover; /* Maintain the image's aspect ratio while covering the container */
+    margin-top: -50px;
+    left: -100px; /* Adjust this value as needed to crop a little from the top */
+  }
+
+  .home-image-section .container{
+    display: flex; /* Use Flexbox for layout */
+    align-items: center; /* Vertically center the content */
+    justify-content: flex-end; /* Push the content to the right */
+    flex-direction: column; /* Stack the content vertically */
+  }
+  

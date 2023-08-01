@@ -1,0 +1,68 @@
+/* AddToCartPage.css */
+/* Navigation Bar */
+nav {
+    background-color: green;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Product Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th,
+  table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  table th:first-child,
+  table td:first-child {
+    width: 100px;
+  }
+  
+  table th:nth-child(3),
+  table td:nth-child(3),
+  table th:nth-child(4),
+  table td:nth-child(4),
+  table th:nth-child(5),
+  table td:nth-child(5) {
+    width: 120px;
+  }
+  
+  table tr:last-child td {
+    border-top: 2px solid #000;
+  }
+  
+  /* Add a hover effect on rows */
+  table tr:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  /* Add a hover effect on the "Add to Cart" button */
+  button:hover {
+    background-color: green;
+    color: white;
+  }
+  
+  /* Make the "Add to Cart" button more prominent */
+  button {
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
